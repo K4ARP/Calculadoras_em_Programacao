@@ -103,7 +103,7 @@ public class Aprendendo_java {
 
     // Pergunta se vai encerrar ou não
     public static String cont(){
-        while (true) {
+        while (true){
             try {
                 System.out.println("Deseja continuar?[S/N]");
                 String msg = scanner.next().toUpperCase();
