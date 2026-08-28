@@ -53,7 +53,7 @@ public class Aprendendo_java {
 
     // pede a operação que vai fazer
     public static String conta(){
-        while (true) {
+        while (true){
             try {
                 System.out.println("Qual operação deseja fazer?:");
                 String res = scanner.next();
@@ -86,7 +86,7 @@ public class Aprendendo_java {
 
     // Pede o valor do número
     public static int v(){
-        while (true) {
+        while (true){
             try {
                 System.out.println("Digite um número:");
                 int v = scanner.nextInt();
